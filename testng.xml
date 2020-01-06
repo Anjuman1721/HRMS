@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+    <class name="Com.HRMS.TestCase.TestLogin"/>
+    <class name="Com.HRMS.TestCase.TestOrganizationPage"/>
+    <class name="Com.HRMS.TestCase.TestHrmsStaffPage"/>
+    <class name="Com.HRMS.TestCase.TestCoreHR"/>
+      <class name="Com.HRMS.TestCase.TestTickets"/>
+      <class name="Com.HRMS.TestCase.TestPerformance"/>
+      <class name="Com.HRMS.TestCase.TestRecruitment"/>
+      <class name="Com.HRMS.TestCase.TestTimeSheet"/>
+      <class name="Com.HRMS.TestCase.TestPayroll"/>
+      <class name="Com.HRMS.TestCase.TestTraining"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

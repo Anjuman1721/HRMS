@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="Com.HRMS.TestCase.TestOrganizationPage">
+        <methods>
+          <include name="start"/>
+          <include name="End"/>
+          <include name="TestCompany"/>
+        </methods>
+      </class> <!-- Com.HRMS.TestCase.TestOrganizationPage -->
+      <class name="Com.HRMS.TestCase.TestCoreHR">
+        <methods>
+          <include name="TestAward"/>
+          <include name="start"/>
+          <include name="end"/>
+        </methods>
+      </class> <!-- Com.HRMS.TestCase.TestCoreHR -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

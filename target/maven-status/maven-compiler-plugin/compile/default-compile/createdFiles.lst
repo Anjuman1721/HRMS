@@ -1,0 +1,6 @@
+Com\HRMS\Pages\LoginPage.class
+Com\HRMS\Base\HRMSBase.class
+UTIL\SelectCode.class
+Com\HRMS\Pages\HomePage.class
+Com\HRMS\Pages\OrganizationPage.class
+Com\HRMS\Pages\HrmsStaffPage.class
